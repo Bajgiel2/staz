@@ -1,0 +1,196 @@
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-left: 5.25%;
+    margin-right: 5.25%;
+}
+
+#header {
+    font-size: 25px;
+    color:#000000;    
+    text-shadow: 1px 0 #000000;
+    font-weight:bold;
+}
+
+.header_1 {
+    word-spacing: 86px;
+}
+
+#gallery_drop {
+    background: none;
+    border: none;
+    font-size: 25px;
+    color:#000000;    
+    text-shadow: 1px 0 #000000;
+    font-weight:bold;
+    margin: auto;
+    margin-right: 30px;
+}
+
+
+
+.header {
+    height: 762px;
+    background-image: url("seacost.jpg");
+    background-color: #000000;
+}
+
+#title {
+    position: static;
+    padding-top: 63px;
+    padding-right: 400px;
+}
+
+div.header_1 {
+    position: relative;
+    text-align: right;
+    bottom: 41px;
+}
+
+#header_rd {
+    color: white;
+    margin-top: 195px;
+    margin-left: 760px;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 55px;
+}
+
+#header_rd_s {
+    position: inherit;
+    font-size: 21px;
+    line-height: 30px;
+    margin-left: -26px;
+    margin-top: -16px;
+    font-weight: normal;
+}
+
+#button1 {
+    background: none;
+    border-radius: 35px;
+    font-size: 25px;
+    color: white;
+    border-width: 4px;
+    border-color: white;
+    margin: 5px;
+    width: 175px;
+    position: relative;
+    height: 55px;
+    font-weight: bolder;
+    border-style: solid;
+}
+
+#header_button {
+    text-align: right;
+    margin-top: -65px;
+    margin-right: 55px;
+}
+
+#body_u {
+    margin-left: 122px;
+    margin-top: 34px;
+}
+
+#body_title {
+    color: rgb(77, 104, 111);
+    font-size: 50px;
+}
+
+#body_u1 {
+    line-height: 30px;
+    margin-top: -16px;
+    color:rgb(83, 83, 83);
+    font-weight: 400;
+}
+
+#body_u2 {
+    float: right;
+    margin-top: -181px;
+    margin-right:120px;
+    line-height: 30px;
+    color:rgb(83, 83, 83);
+    font-weight: 400;
+}
+
+#body_d {
+    margin-top: 10px;
+    padding-top: 33px;
+    background-color: rgb(249, 249, 249);
+    padding-left: 45px;
+    height: 820px;
+}
+
+#body_image {
+    margin-top: -10px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#body_d1 {
+    margin-top: -12px;
+    line-height: 26px;
+}
+
+#body_button {
+    background: none;
+    border-radius: 24px;
+    font-size: 25px;
+    color: rgb(102, 112, 115);
+    border-width: 3px;
+    border-color: rgb(106, 115, 117);
+    margin: auto;
+    width: 200px;
+    position: relative;
+    height: 55px;
+    font-weight: bolder;
+    border-style: solid;
+    margin-top: 1.25%;
+    margin-left: 35.25%;
+}
+
+table {
+    width: 100%;
+    height: 400px;
+    padding-top: 69px;
+    margin: auto;   
+}
+
+td {
+    padding-bottom: 65px;
+}
+
+.zoom {
+transition: transform .2s;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+#gallery {
+    margin-left: 53px;
+    margin-right: 35px;
+}
+
+img {
+    object-fit: cover;
+}
+
+#footer {
+    background-color: rgb(83, 101, 103);
+    color: white;
+    height: 80px;
+    margin-top: 5px;
+}
+
+#footer_text {
+    padding-top: 23px;
+    padding-left: 38px;
+}
